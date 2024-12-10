@@ -5,9 +5,9 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A mobile app for ordering coffee on-the-go, making it easier for coffee lovers to get their favorite beverages without waiting in line.
+> A web application to enhance communication and collaboration among company teams in Slack workspaces by analyzing interactions and providing actionable insights.
 >
-> Coffee Express aims to streamline the coffee-ordering process by providing a user-friendly platform for customers to place orders and pick up their coffee at their convenience. We believe in enhancing the coffee experience by saving time and ensuring customer satisfaction.
+> CommTrack analyzes team interactions to offer valuable insights, like emotional trends shown in heatmaps, alerts for HR about negative sentiment, and features like leaderboards to boost engagement and friendly competition.
 
 ### User Stories
 - As a user, I want to browse the menu, so I can find my favorite coffee drinks.
