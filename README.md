@@ -10,10 +10,21 @@
 > CommTrack analyzes team interactions to offer valuable insights, like emotional trends shown in heatmaps, alerts for HR about negative sentiment, and features like leaderboards to boost engagement and friendly competition.
 
 ### User Stories
-- As a user, I want to browse the menu, so I can find my favorite coffee drinks.
-- As a user, I want to customize my order, so I can add or remove ingredients according to my preferences.
-- As a user, I want to pay for my order through the app, so I can avoid waiting in line at the store.
-
+## Team Member
+- As a team member, I want to receive personalized feedback on my communication style so I can improve my interactions with colleagues.
+- As a team member, I want to see a summary of team sentiment to better understand the mood of our group.
+- As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
+## HR Manager
+- As a HR manager, I want to track overall team engagement levels to identify potential burnout or disengagement.
+- As a HR manager, I want to review detailed reports on sentiment trends to help guide employee support strategies.
+## Team Leader
+- As a team leader, I want to monitor the team’s emotional health to ensure a positive work environment.
+- As a team leader, I want to get real-time updates on team performance to better manage productivity.
+- As a team leader, I want to set goals and challenges for my team that encourage collaboration and fun.
+## Admin
+- As an admin, I want to manage user access and permissions to ensure the right people have the right level of control.
+- As an admin, I want to monitor overall platform usage to ensure teams are actively engaging with the app.
+- As an admin, I want to generate detailed analytics reports to track the app's impact on team communication.
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
