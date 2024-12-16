@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/bahaa-abou-khalil/client-CommTrack.git
+[submodule "server"]
+	path = server
+	url = https://github.com/bahaa-abou-khalil/server-CommTrack.git
