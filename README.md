@@ -5,9 +5,9 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A web application to enhance communication and collaboration among company teams in Slack workspaces by analyzing interactions and providing actionable insights.
+> CommTrack is designed to improve communication and collaboration within teams by working directly with Slack.
 >
-> CommTrack analyzes team interactions to offer valuable insights, like emotional trends shown in heatmaps, alerts for HR about negative sentiment, and features like leaderboards to boost engagement and friendly competition.
+> As a Slack app, it allows users to track and manage their behavior, engagement, and productivity. This integration helps keep teams connected, motivated, and focused on their goals, creating a supportive environment where members can collaborate more effectively and improve their overall performance.
 
 ## User Stories
 ### Team Member
