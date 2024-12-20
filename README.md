@@ -5,26 +5,24 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A web application to enhance communication and collaboration among company teams in Slack workspaces by analyzing interactions and providing actionable insights.
+> CommTrack is designed to improve communication and collaboration within teams by working directly with Slack.
 >
-> CommTrack analyzes team interactions to offer valuable insights, like emotional trends shown in heatmaps, alerts for HR about negative sentiment, and features like leaderboards to boost engagement and friendly competition.
+> As a Slack app, it allows users to track and manage their behavior, engagement, and productivity. This integration helps keep teams connected, motivated, and focused on their goals, creating a supportive environment where members can collaborate more effectively and improve their overall performance.
 
 ## User Stories
 ### Team Member
-- As a team member, I want to receive personalized feedback on my communication style so I can improve my interactions with colleagues.
-- As a team member, I want to see a summary of team sentiment to better understand the mood of our group.
+- As a team member, I want to receive personalized alerts regarding behavior, engagement, and productivity based on my interactions and communication.
+- As a team member, I want to be able to open and join discussions on specific topics to enhance collaboration.
+- As a team member, I want the discussions to redirect to a channel in the company's Slack workspace for seamless communication and mutual assistance.
 - As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
-### HR Manager
-- As a HR manager, I want to track overall team engagement levels to identify potential burnout or disengagement.
-- As a HR manager, I want to review detailed reports on sentiment trends to help guide employee support strategies.
 ### Team Leader
-- As a team leader, I want to monitor the team’s emotional health to ensure a positive work environment.
-- As a team leader, I want to get real-time updates on team performance to better manage productivity.
-- As a team leader, I want to set goals and challenges for my team that encourage collaboration and fun.
+- As a team leader, I want to extend, join, and create discussions for my team to encourage collaboration and productivity.
+- As a team leader, I want to receive all alerts sent to my team to track their performance.
 ### Admin
-- As an admin, I want to manage user access and permissions to ensure the right people have the right level of control.
-- As an admin, I want to monitor overall platform usage to ensure teams are actively engaging with the app.
-- As an admin, I want to generate detailed analytics reports to track the app's impact on team communication.
+- As an admin, I want to manage user access and permissions to ensure the right people have the appropriate level of control.
+- As an admin, I want to generate detailed analytics reports to track the app's impact on team communication and productivity.
+- As an admin, I want to view the leaderboard for my team to identify the top performers.
+- As an admin, I want to receive all alerts sent to team members within the workspace for better oversight.
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
