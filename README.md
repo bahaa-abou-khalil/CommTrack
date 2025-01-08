@@ -13,16 +13,15 @@
 ### Team Member
 - As a team member, I want to receive personalized alerts regarding behavior, engagement, and productivity based on my interactions and communication.
 - As a team member, I want to be able to open and join discussions on specific topics to enhance collaboration.
-- As a team member, I want the discussions to redirect to a channel in the company's Slack workspace for seamless communication and mutual assistance.
 - As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
 ### Team Leader
 - As a team leader, I want to extend, join, and create discussions for my team to encourage collaboration and productivity.
 - As a team leader, I want to receive all alerts sent to my team to track their performance.
+- As a team leader, I want to see who the team player is in my team.
 ### Admin
 - As an admin, I want to manage user access and permissions to ensure the right people have the appropriate level of control.
 - As an admin, I want to generate detailed analytics reports to track the app's impact on team communication and productivity.
 - As an admin, I want to view the leaderboard for my team to identify the top performers.
-- As an admin, I want to receive all alerts sent to team members within the workspace for better oversight.
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
