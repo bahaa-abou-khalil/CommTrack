@@ -43,9 +43,9 @@
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
-| ---| ---| ---|
-| ![Landing](./readme/screens/home-screen.jpg) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Home screen  | Menu Screen |
+| ---| ---|
+| ![Landing](./readme/screens/home-screen.jpg) | ![fsdaf](./readme/screens/sign-in.png) |
 
 <br><br>
 
