@@ -54,7 +54,6 @@
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
 <img src="./readme/db/CommTrackDB.png"/>
 
 <br><br>
