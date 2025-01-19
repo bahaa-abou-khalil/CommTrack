@@ -43,9 +43,9 @@
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
-| ---| ---| ---|
-| ![Landing](./readme/screens/home-screen.jpg) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Landing screen  | Sign In Screen |
+| ---| ---|
+| ![Landing](./readme/screens/home-screen.png) | ![fsdaf](./readme/screens/sign-in.png) |
 
 <br><br>
 
@@ -55,7 +55,7 @@
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
 - Insert ER Diagram here
-
+<img src="./readme/db/CommTrackDB.png"/>
 
 <br><br>
 
