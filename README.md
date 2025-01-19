@@ -13,36 +13,33 @@
 ### Team Member
 - As a team member, I want to receive personalized alerts regarding behavior, engagement, and productivity based on my interactions and communication.
 - As a team member, I want to be able to open and join discussions on specific topics to enhance collaboration.
-- As a team member, I want the discussions to redirect to a channel in the company's Slack workspace for seamless communication and mutual assistance.
 - As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
 ### Team Leader
-- As a team leader, I want to extend, join, and create discussions for my team to encourage collaboration and productivity.
-- As a team leader, I want to receive all alerts sent to my team to track their performance.
+- As a team leader, I want to join and create discussions for my team to encourage collaboration and productivity.
+- As a team leader, I want to pin important discussions to easily track key information.
+- As a team leader, I want to see who the team player is in my team.
 ### Admin
-- As an admin, I want to manage user access and permissions to ensure the right people have the appropriate level of control.
-- As an admin, I want to generate detailed analytics reports to track the app's impact on team communication and productivity.
-- As an admin, I want to view the leaderboard for my team to identify the top performers.
-- As an admin, I want to receive all alerts sent to team members within the workspace for better oversight.
+- As an admin, I want to view user activity on discussions to monitor engagement.
+- As an admin, I want to track total alerts to measure team responsiveness.
+- As an admin, I want to view a leaderboard of team members to highlight top performers.
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  CommTrack is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- **MERN Stack**: The app is built using MongoDB, Express.js, React, and Node.js, providing flexible foundation for both the frontend and backend.
+- **Slack API**: It integrates with Slack workspaces to track communication and manage productivity directly within Slack channels.
+- **OpenAI API**: Used to analyze messages and generate intelligent alerts, helping track behavior, engagement, and productivity.
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We developed CommTrack through a series of wireframes and mockups, refining the design with each iteration to ensure an intuitive layout and smooth user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/qpQtll5KnC3BtoPWU0HvbS/Final-Project?node-id=0-1&p=f&t=y5Vq6ThOrdSapxhR-0)
 
 
 ### Mockups
