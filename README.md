@@ -63,14 +63,21 @@
 <img src="./readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+### User Screens
+| Request Discussion  | Search Discussion |
+| ---| ---|
+| ![Landing](./readme/implementation/request-discussion.gif) | ![fsdaf](./readme/implementation/search-discussion.gif) |
+| Join Discussion  | Acknowledge Alert |
+| ![Landing](./readme/implementation/join-discussion.gif) | ![fsdaf](./readme/implementation/ack-alert.gif) |
 
-### Admin Screens (Web)
+### Leader Screens
+| Login screen  | Register screen |  Landing screen |
+| ---| ---| ---|
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Home screen  | Menu Screen | Order Screen |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+
+### Admin Screens
 | Login screen  | Register screen |  Landing screen |
 | ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
