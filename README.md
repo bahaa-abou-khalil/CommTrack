@@ -68,8 +68,8 @@
 | ![Landing](./readme/implementation/request-discussion.gif) | ![fsdaf](./readme/implementation/search-discussion.gif) |
 | Join Discussion  | Acknowledge Alert |
 | ![Landing](./readme/implementation/join-discussion.gif) | ![fsdaf](./readme/implementation/ack-alert.gif) |
-| Alert Tips  | Logout |
-| ![Landing](./readme/implementation/alert-imp.gif) | ![fsdaf](./readme/implementation/logout.gif) |
+| Alert Tips  | Slack OAuth |
+| ![Landing](./readme/implementation/alert-imp.gif) | ![fsdaf](./readme/implementation/sign-in.gif) |
 
 ### Leader Screen
 | Pin Discussion  |
