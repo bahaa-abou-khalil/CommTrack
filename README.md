@@ -12,7 +12,7 @@
 ## User Stories
 ### Team Member
 - As a team member, I want to receive personalized alerts regarding behavior, engagement, and productivity based on my interactions and communication.
-- As a team member, I want to be able to open and join discussions on specific topics to enhance collaboration.
+- As a team member, I want to be able to open and join discussions on specific topics with a time-focused approach to enhance collaboration.
 - As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
 ### Team Leader
 - As a team leader, I want to pin important discussions to easily track key information.
