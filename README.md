@@ -15,9 +15,7 @@
 - As a team member, I want to be able to open and join discussions on specific topics to enhance collaboration.
 - As a team member, I want to compete on leaderboards so I can motivate myself to engage more in team activities.
 ### Team Leader
-- As a team leader, I want to join and create discussions for my team to encourage collaboration and productivity.
 - As a team leader, I want to pin important discussions to easily track key information.
-- As a team leader, I want to see who the team player is in my team.
 ### Admin
 - As an admin, I want to view user activity on discussions to monitor engagement.
 - As an admin, I want to track total alerts to measure team responsiveness.
@@ -28,9 +26,14 @@
 
 ###  CommTrack is built using the following technologies:
 
-- **MERN Stack**: The app is built using MongoDB, Express.js, React, and Node.js, providing flexible foundation for both the frontend and backend.
-- **Slack API**: It integrates with Slack workspaces to track communication and manage productivity directly within Slack channels.
-- **OpenAI API**: Used to analyze messages and generate intelligent alerts, helping track behavior, engagement, and productivity.
+- **[MERN Stack](https://www.mongodb.com/mern-stack)**: The app is built using MongoDB, Express.js, React, and Node.js, providing a flexible foundation for both the frontend and backend.  
+- **[Slack API](https://api.slack.com/)**: Integrates with Slack workspaces to track communication and manage productivity directly within Slack channels.  
+- **[OpenAI API](https://platform.openai.com/overview)**: Analyzes messages and generates intelligent alerts, helping track behavior, engagement, and productivity.  
+- **[Events API](https://api.slack.com/apis/connections/events-api)**: Listens to active discussions and stores joined users in the database in real time.  
+- **[Socket.IO](https://socket.io/)**: Monitors the database to identify when users join channels immediately after they do.  
+- **[MUI](https://mui.com/)** and **[PrimeReact](https://primereact.org/)**: Used for efficient and responsive designs, enhancing the user experience.  
+- **[Fuse.js](https://fusejs.io/)**: Implements advanced search logic for improved search functionality.  
+
 
 <br><br>
 <!-- UI UX -->
