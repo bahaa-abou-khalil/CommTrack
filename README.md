@@ -98,8 +98,6 @@ The app leverages prompt engineering to analyze user messages for violations in 
 - **messages**: Array of messages sent by the user.  
 - **timestamp**: The timestamp of when each message was sent.
 
----
-
 ## Prompt Structure  
 ```
 [
@@ -157,17 +155,17 @@ Before running the application locally, ensure you have the following:
    git clone --recurse-submodules https://github.com/bahaa-abou-khalil/CommTrack.git
    ```
 
-3. Install NPM packages
+2. Install NPM packages:
 ```sh
 npm install
 ```
 
-4. Obtain the ngrok url and add it to your `.env` file:
+3. Obtain the ngrok url and add it to your `.env` file:
 ```plaintext
 REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
 ```
 
-5. Obtain the following credentials from the created slack app and add them to your `.env` file:
+4. Obtain the following credentials from the created slack app and add them to your `.env` file:
 ```plaintext
 SLACK_APP_ID=
 SLACK_CLIENT_ID=
@@ -178,15 +176,15 @@ SLACK_BOT_TOKEN=
 SLACK_USER_TOKEN=
 ```
 
-6. Add your OpenAI API key to your `.env` file:
+5. Add your OpenAI API key to your `.env` file:
 ```plaintext
 OPENAI_API_KEY=
 ```
-7. Add a jwt secret in your `.env` file:
+6. Add a jwt secret in your `.env` file:
 ```plaintext  
 JWT_SECRET=
 ```
-8. Add the following for database and server port in your `.env` file:
+7. Add the following for database and server port in your `.env` file:
 ```plaintext
 SERVER_PORT=
 DB_NAME=
