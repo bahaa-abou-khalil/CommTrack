@@ -52,7 +52,6 @@
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
 
 <img src="./readme/db/CommTrackDB.png"/>
 
