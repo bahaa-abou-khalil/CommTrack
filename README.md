@@ -63,19 +63,25 @@
 <img src="./readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+### User Screens
+| Request Discussion  | Search Discussion |
+| ---| ---|
+| ![Landing](./readme/implementation/request-discussion.gif) | ![fsdaf](./readme/implementation/search-discussion.gif) |
+| Join Discussion  | Acknowledge Alert |
+| ![Landing](./readme/implementation/join-discussion.gif) | ![fsdaf](./readme/implementation/ack-alert.gif) |
+| Alert Tips  | Logout |
+| ![Landing](./readme/implementation/alert-imp.gif) | ![fsdaf](./readme/implementation/logout.gif) |
 
-### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+### Leader Screen
+| Pin Discussion  |
+| ---|
+| ![Landing](./readme/implementation/pin-discussion.gif) |
+
+
+### Admin Screens
+| Dashboard Activity  | Leaderboard and Alerts |
+| ---| ---|
+| ![Landing](./readme/implementation/dashboard-activity.gif) | ![fsdaf](./readme/implementation/dashboard-alerts.gif) |
 
 <br><br>
 
@@ -83,30 +89,13 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
-
-<br><br>
-
-<!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
-
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- The app leverages prompt engineering to analyze user messages for violations in behavior, engagement, and productivity.
+- Prompts are structured to generate clear, actionable alerts, grouping them by user and ensuring all outputs follow a strict JSON schema.
+- Continuous refinement of the prompts ensures accuracy and efficiency, providing users with valuable insights and improvement tips.
 
 <br><br>
-
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-###  Precision in Development: Harnessing the Power of Unit Testing:
-
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
-
-<br><br>
-
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
