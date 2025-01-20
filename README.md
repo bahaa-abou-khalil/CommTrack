@@ -158,42 +158,42 @@ Before running the application locally, ensure you have the following:
    ```
 
 3. Install NPM packages
-   ```sh
-   npm install
-   ```
+```sh
+npm install
+```
 
 4. Obtain the ngrok url and add it to you '.env` file:
-     ```plaintext
-     REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
-     ```
+```plaintext
+REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
+```
 
 5. Obtain the following credentials from the created slack app and add them to your `.env` file:
-     ```plaintext
-     SLACK_APP_ID=
-     SLACK_CLIENT_ID=
-     SLACK_CLIENT_SECRET=
-     SLACK_SIGNING_SECRET=
-     SLACK_VERIFICATION_TOKEN=
-     SLACK_BOT_TOKEN=
-     SLACK_USER_TOKEN=
-     ```
+```plaintext
+SLACK_APP_ID=
+SLACK_CLIENT_ID=
+SLACK_CLIENT_SECRET=
+SLACK_SIGNING_SECRET=
+SLACK_VERIFICATION_TOKEN=
+SLACK_BOT_TOKEN=
+SLACK_USER_TOKEN=
+```
 
 6. Add your OpenAI API key to your `.env` file:
-     ```plaintext
-     OPENAI_API_KEY=
-     ```
+```plaintext
+OPENAI_API_KEY=
+```
 7. Add a jwt secret in your `.env` file:
-    ```plaintext  
-    JWT_SECRET=
-    ```
+```plaintext  
+JWT_SECRET=
+```
 8. Add to your `.env` file in your project directory the following keys for your database and server port:
-     ```plaintext
-     SERVER_PORT=
-     DB_NAME=
-     DB_HOST=
-     DB_PORT=
-     DB_USER=
-     DB_PASSWORD=
-     ```
+```plaintext
+SERVER_PORT=
+DB_NAME=
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+```
 
 Now, you should be able to run CommTrack locally and explore its features.
