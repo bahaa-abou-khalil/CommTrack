@@ -91,12 +91,39 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Engineering Interaction with OpenAI  
 
-- The app leverages prompt engineering to analyze user messages for violations in behavior, engagement, and productivity.
-- Prompts are structured to generate clear, actionable alerts, grouping them by user and ensuring all outputs follow a strict JSON schema.
-- Continuous refinement of the prompts ensures accuracy and efficiency, providing users with valuable insights and improvement tips.
+The app leverages prompt engineering to analyze user messages for violations in behavior, engagement, and productivity. The API accepts an array of JSON objects as a parameter, where each object includes the following fields:  
+- **user_id**: Unique identifier for the user.  
+- **messages**: Array of messages sent by the user.  
+- **timestamp**: The timestamp of when each message was sent.
 
+---
+
+## Prompt Structure  
+```
+[
+  {
+    "role": "system",
+    "content": "You are an expert in analyzing structured data to structured output, talking with the members directly in simple and professional English."
+  },
+  {
+    "role": "user",
+    "content": "Determine if the messages of each user violate specific guidelines in behavior, engagement, and productivity."
+  },
+  {
+    "role": "user",
+    "content": JSON.stringify(transformedMessages)
+  },
+  {
+    "role": "user",
+    "content": "Group all alerts by the user_id field in the input data. Each user in the output should have a 'user_id' field and an 'alerts' array containing all alerts for that user."
+  }
+]
+```
+| Response Format  |
+| ---|
+| ![response_format](./readme/prompt/response_format.png) |
 <br><br>
 
 <!-- How to run -->
