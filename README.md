@@ -162,7 +162,7 @@ Before running the application locally, ensure you have the following:
 npm install
 ```
 
-4. Obtain the ngrok url and add it to you '.env` file:
+4. Obtain the ngrok url and add it to you `.env` file:
 ```plaintext
 REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
 ```
