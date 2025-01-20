@@ -162,7 +162,7 @@ Before running the application locally, ensure you have the following:
 npm install
 ```
 
-4. Obtain the ngrok url and add it to you `.env` file:
+4. Obtain the ngrok url and add it to your `.env` file:
 ```plaintext
 REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
 ```
@@ -186,7 +186,7 @@ OPENAI_API_KEY=
 ```plaintext  
 JWT_SECRET=
 ```
-8. Add to your `.env` file in your project directory the following keys for your database and server port:
+8. Add the following for database and server port in your `.env` file:
 ```plaintext
 SERVER_PORT=
 DB_NAME=
