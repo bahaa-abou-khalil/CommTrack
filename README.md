@@ -141,31 +141,33 @@ Before running the application locally, ensure you have the following:
    - Use [React.js](https://reactjs.org/) for the frontend.
 
 2. **Ngrok**  
-   - Download [Ngrok](https://ngrok.com/) for setting up public-facing URLs for Slack callback APIs.
+   - Download [Ngrok](https://ngrok.com/) for setting up a public URL for Slack callback APIs.
 
 3. **Slack API Setup**  
    - Create a Slack App via the [Slack API Developer Console](https://api.slack.com/apps).
 
 4. **OpenAI API**  
-   - Obtain an OpenAI API key from [OpenAI](https://openai.com/) and add it to your `.env` file:
+   - Obtain an OpenAI API key from [OpenAI](https://openai.com/).
 
 
-### Installation
+## Installation
 
 1. Clone the repository along with its submodules for both the client and server:
+  ```sh
    git clone --recurse-submodules [github](https://github.com/bahaa-abou-khalil/CommTrack.git)
+   ```
 
-2. Install NPM packages
+3. Install NPM packages
    ```sh
    npm install
    ```
 
-3. Obtain the ngrok url and add it to you '.env` file:
+4. Obtain the ngrok url and add it to you '.env` file:
      ```plaintext
      REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
      ```
 
-4. Obtain the following credentials from the created slack app and add them to your `.env` file:
+5. Obtain the following credentials from the created slack app and add them to your `.env` file:
      ```plaintext
      SLACK_APP_ID=
      SLACK_CLIENT_ID=
@@ -176,15 +178,15 @@ Before running the application locally, ensure you have the following:
      SLACK_USER_TOKEN=
      ```
 
-5. Add your OpenAI API key to your `.env` file:
+6. Add your OpenAI API key to your `.env` file:
      ```plaintext
      OPENAI_API_KEY=
      ```
-6. Add a jwt secret in your `.env` file:
+7. Add a jwt secret in your `.env` file:
     ```plaintext  
     JWT_SECRET=
     ```
-7. Add to your `.env` file in your project directory the following keys for your database and server port:
+8. Add to your `.env` file in your project directory the following keys for your database and server port:
      ```plaintext
      SERVER_PORT=
      DB_NAME=
