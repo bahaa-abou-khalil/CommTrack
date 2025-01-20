@@ -124,27 +124,66 @@ The app leverages prompt engineering to analyze user messages for violations in 
 | Response Format  |
 | ---|
 | ![response_format](./readme/prompt/response_format.png) |
+
 <br><br>
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up CommTrack locally, follow these steps:
 
-### Prerequisites
+## Prerequisites
+Before running the application locally, ensure you have the following:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. **MERN Stack**  
+   - Install [MongoDB](https://www.mongodb.com/) for database management.
+   - Install [Node.js](https://nodejs.org/) for running the backend server.
+   - Use [React.js](https://reactjs.org/) for the frontend.
+
+2. **Ngrok**  
+   - Download [Ngrok](https://ngrok.com/) for setting up public-facing URLs for Slack callback APIs.
+   - Obtain the ngrok url and add it to you '.env` file:
+     ```plaintext
+     REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
+     ```
+
+3. **Slack API Setup**  
+   - Create a Slack App via the [Slack API Developer Console](https://api.slack.com/apps).
+   - Obtain the following credentials and add them to your `.env` file:
+     ```plaintext
+     SLACK_APP_ID=
+     SLACK_CLIENT_ID=
+     SLACK_CLIENT_SECRET=
+     SLACK_SIGNING_SECRET=
+     SLACK_VERIFICATION_TOKEN=
+     SLACK_BOT_TOKEN=
+     SLACK_USER_TOKEN=
+     ```
+
+4. **OpenAI API**  
+   - Obtain an OpenAI API key from [OpenAI](https://openai.com/) and add it to your `.env` file:
+     ```plaintext
+     OPENAI_API_KEY=
+     ```
+5. **JWT**
+    ```plaintext  
+    JWT_SECRET=
+    ```
+6. **Database**  
+   - Add to your `.env` file in your project directory the following keys for your database and server port:
+     ```plaintext
+     SERVER_PORT=
+     DB_NAME=
+     DB_HOST=
+     DB_PORT=
+     DB_USER=
+     DB_PASSWORD=
+     ```
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
+1. Clone the repo
    git clone [github](https://github.com/your_username_/Project-Name.git)
 3. Install NPM packages
    ```sh
@@ -155,4 +194,4 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+Now, you should be able to run CommTrack locally and explore its features.
