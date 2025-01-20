@@ -152,31 +152,20 @@ Before running the application locally, ensure you have the following:
 
 ### Installation
 
-1. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Clone the repository along with its submodules for both the client and server:
+   git clone --recurse-submodules [github](https://github.com/bahaa-abou-khalil/CommTrack.git)
+
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
- 1. **MERN Stack**  
-   - Install [MongoDB](https://www.mongodb.com/) for database management.
-   - Install [Node.js](https://nodejs.org/) for running the backend server.
-   - Use [React.js](https://reactjs.org/) for the frontend.
 
-2. **Ngrok**  
-   - Download [Ngrok](https://ngrok.com/) for setting up public-facing URLs for Slack callback APIs.
-   - Obtain the ngrok url and add it to you '.env` file:
+3. Obtain the ngrok url and add it to you '.env` file:
      ```plaintext
      REDIRECTED_SLACK_SIGNIN=<ngrok url>/slackAuth/welcome
      ```
 
-3. **Slack API Setup**  
-   - Create a Slack App via the [Slack API Developer Console](https://api.slack.com/apps).
-   - Obtain the following credentials and add them to your `.env` file:
+4. Obtain the following credentials from the created slack app and add them to your `.env` file:
      ```plaintext
      SLACK_APP_ID=
      SLACK_CLIENT_ID=
@@ -187,17 +176,15 @@ Before running the application locally, ensure you have the following:
      SLACK_USER_TOKEN=
      ```
 
-4. **OpenAI API**  
-   - Obtain an OpenAI API key from [OpenAI](https://openai.com/) and add it to your `.env` file:
+5. Add your OpenAI API key to your `.env` file:
      ```plaintext
      OPENAI_API_KEY=
      ```
-5. **JWT**
+6. Add a jwt secret in your `.env` file:
     ```plaintext  
     JWT_SECRET=
     ```
-6. **Database**  
-   - Add to your `.env` file in your project directory the following keys for your database and server port:
+7. Add to your `.env` file in your project directory the following keys for your database and server port:
      ```plaintext
      SERVER_PORT=
      DB_NAME=
