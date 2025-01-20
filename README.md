@@ -154,7 +154,7 @@ Before running the application locally, ensure you have the following:
 
 1. Clone the repository along with its submodules for both the client and server:
   ```sh
-   git clone --recurse-submodules [github](https://github.com/bahaa-abou-khalil/CommTrack.git)
+   git clone --recurse-submodules https://github.com/bahaa-abou-khalil/CommTrack.git
    ```
 
 3. Install NPM packages
