@@ -43,9 +43,9 @@
 
 
 ### Mockups
-| Landing screen  | Sign In Screen |
+| Landing screen  | Discussions Screen |
 | ---| ---|
-| ![Landing](./readme/screens/home-screen.png) | ![fsdaf](./readme/screens/sign-in.png) |
+| ![Landing](./readme/screens/home-screen.png) | ![fsdaf](./readme/screens/discussion.png) |
 
 <br><br>
 
