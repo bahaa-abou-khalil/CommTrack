@@ -133,7 +133,9 @@ The app leverages prompt engineering to analyze user messages for violations in 
 
 | Users API  | Discussions API |
 | ---| ---|
-| ![response_format](./readme/aws/users.png) | ![response_format](./readme/aws/discussions.png) |
+| ![users](./readme/aws/users.png) | ![discussions](./readme/aws/discussions.png) |
+| Create Discussion API  | Alerts API |
+| ![create_discussions](./readme/aws/create_discussion.png) | ![alerts](./readme/aws/alerts.png) |
 
 <br><br>
 
