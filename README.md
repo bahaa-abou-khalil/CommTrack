@@ -123,6 +123,18 @@ The app leverages prompt engineering to analyze user messages for violations in 
 | ---|
 | ![response_format](./readme/prompt/response_format.png) |
 
+
+<br><br>
+
+<!-- AWS Deployment -->
+<img src="./readme/title8.svg"/>
+
+> The backend is hosted on an AWS EC2 instance for consistent performance and efficient resource management.
+
+| Users API  | Discussions API |
+| ---| ---|
+| ![response_format](./readme/aws/users.png) | ![response_format](./readme/aws/discussions.png) |
+
 <br><br>
 
 <!-- How to run -->
